@@ -19,3 +19,16 @@ console.log(texto2)
 
 const texto3 = texto2.join(" ");
 console.log(texto2)
+
+//
+const precoProduto = 199.99;
+const desconto=0.15;
+const precoFinal = precoProduto *(1-desconto);
+console.log(precoFinal);
+console.log(`R$ ${precoFinal.toFixed(2)}`);
+
+const titulo=document.getElementById("titulo")
+
+titulo.innerText= "O DOM mudou o texto";
+
+titulo.style.color="blue";
